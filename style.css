@@ -3,10 +3,204 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: blue;
+}
 
 /* ...................... start navbar .......................... */
 
+
 nav{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 0px 5px;
+}
+.logo>h1{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Barlow", serif;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.menu>div{
+    margin: 0px 5px;
+}
+.menu>div>a{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Barlow", serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* ...................... start navbar .......................... */
+
+/* .......................... start functions............................ */
+
+.functions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.functions>div{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0c2461;
+    padding: 20px;
+}
+.function{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Barlow", serif;
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.function>i{
+    font-size: 15px;
+    color: yellow;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+
+/* .......................... end functions............................ */
+
+/* .......................... start color boxes............................ */
+.color-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 25px 25px;
+    cursor: pointer;
+}
+.cardRow{
+    display: flex;
+    flex-direction: row;
     
 }
+.colorBox{
+    width: 55px;
+    height: 50px;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.name{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Barlow", serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.country{
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: "Barlow", serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* ....... coloring ...... */
+.box1{
+    background-color: #f6e58d;
+}
+.box2{
+    background-color: #ffbe76;
+}
+.box3{
+    background-color: #ff7979;
+}
+.box4{
+    background-color: #badc58;
+}
+.box5{
+    background-color: #dff9fb;
+}
+.box6{
+    background-color: #f9ca24;
+}
+.box7{
+    background-color: #f0932b;
+}
+.box8{
+    background-color: #eb4d4b;
+}
+.box9{
+    background-color: #6ab04c;
+}
+.box10{
+    background-color: #c7ecee;
+}
+.box11{
+    background-color: #7ed6df;
+}
+.box12{
+    background-color: #e056fd;
+}
+.box13{
+    background-color: #686de0;
+}
+.box14{
+    background-color: #30336b;
+}
+.box15{
+    background-color: #95afc0;
+}
+.box16{
+    background-color: #22a6b3;
+}
+.box17{
+    background-color: #be2edd;
+}
+.box18{
+    background-color: #4834d4;
+}
+.box19{
+    background-color: #130f40;
+}
+.box20{
+    background-color: #535c68;
+}
+/* ....... coloring ...... */
+/* .......................... end color boxes............................ */
