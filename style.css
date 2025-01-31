@@ -927,8 +927,4 @@ nav{
 }
 #card1:checked ~ div.Scard{
     right: 0%;
-    top: 0%;
-    transition: all 0.5s ease-in-out;
-    bottom: 0%;
-    left: 0%;
 }
