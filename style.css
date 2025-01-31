@@ -915,6 +915,8 @@ nav{
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .sound{
     margin-right: 30px;
@@ -958,6 +960,12 @@ option{
 #card1:checked ~ div.Scard1, #card2:checked ~ div.Scard2, #card3:checked ~ div.Scard3, #card4:checked ~ div.Scard4, #card5:checked ~ div.Scard5, #card6:checked ~ div.Scard6{
     right: 0%;
 }
+@media screen and (max-width: 600px) {
+    select{
+        display: none;
+    }
+    
+}
 
 /* ...........................start footer........................... */
 
@@ -965,7 +973,24 @@ option{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #0c2461;
+    margin-top: 50px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+.text{
+    height: 20px;
+    margin: 10px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
