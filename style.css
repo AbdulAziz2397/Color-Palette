@@ -48,6 +48,19 @@ nav{
     text-decoration: none;
 }
 
+.menu>div::after{
+    content: '';
+    transform: scaleX(0%);
+    background: white;
+    display: block;
+    margin: auto;
+    height: 2px;
+    transition: 0.5s;
+    transform-origin: left;
+}
+.menu>div:hover::after{
+    transform: scaleX(100%);
+}
 /* ...................... start navbar .......................... */
 
 /* .......................... start functions............................ */
